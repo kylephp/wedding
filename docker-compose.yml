@@ -13,7 +13,7 @@ services:
     restart: always
   nginx-ssl:
     image: nginx:1.15-alpine
-    container_name: nginx
+    container_name: nginx-ssl
     ports:
       - "443:443"
     volumes:
