@@ -12,8 +12,17 @@
     "Name": {
       "type": "string"
     },
-    "Description": {
+    "Comment": {
       "type": "richtext"
+    },
+    "Going": {
+      "type": "boolean"
+    },
+    "Guest": {
+      "type": "integer"
+    },
+    "Vegan": {
+      "type": "boolean"
     }
   }
 }
